@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calender using flex</title>
+    <style>
+        .md{
+            border: 2px solid black;
+            height:310px;
+            width: 300px;
+            display: flex;
+            flex-wrap: wrap;  
+            background-color:white; 
+            border-radius: 10%;
+            
+
+        }
+        .cd{
+            border: 0px solid;
+            width: 40px;
+            font-size: 20px;
+            font-weight: bold ;
+            text-align: center;
+            margin-top: 15px;
+            
+        }
+        .cd1{
+           border: 0px solid;
+           background-color: rgb(59, 59, 59);
+           height: 40px;
+           width: 40px;
+           border-radius: 100%;
+           padding-top: -5px;
+           
+        }
+        .cd2{
+            border: 2px solid black;
+            height: 500px;
+            width: 300px;
+            background-color: cadetblue;
+        }
+        p{
+            font-size: 25px;
+            font-weight: bold;
+            margin-left: 90px; 
+        }
+        /*h1{
+            margin-top: -120px;
+            text-align: center;
+        }*/
+       
+       
+        .cd3{
+            font-size: 18px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-around;
+            margin-top: -30px;
+            background-color:darkcyan ;
+            border: 2px solid black;
+            flex-grow: 1;
+        }
+        .cd4{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .md2{
+            border: 4px solid black;
+            width:1300px;
+            height: 1050px;
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 20px;
+            justify-content: space-between;
+            align-items: end;
+            /*background-image: url(./downloadedpictures/calenderbackground.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;*/
+            background-color: darkslategray;
+            margin-top: px;
+            
+        }
+        /*.cd5{
+            border: 2px solid black;
+            width: 40px;
+            height: 50px;
+        }*/
+        .h1{
+            text-align: center;
+            border: 2px solid black;
+            margin-top: px;
+            background-color: darkslategray;
+        }
+    </style>
+
+</head>
+<body style="display: flex;justify-content: center;">
+    <!--<div class="cd2">
+        <p>24</p>
+        <h1>Wednesday</h1>
+    </div>-->
+    <div>
+        <div class="h1"><h1>2024</h1>
+        </div>
+        <div class="cd5"></div><br><br>
+        
+        <div class="md2">
+            <div class="md"><p>January</p>
+                <div class="cd3">
+                    <div class="cd ">Sun</div>
+                    <div class="cd ">Mon</div>
+                    <div class="cd ">Tues</div>
+                    <div class="cd ">Wed</div>
+                    <div class="cd ">Thur</div>
+                    <div class="cd ">Fri</div>
+                    <div class="cd ">Sat</div>
+                </div>
+                <div class="cd4">
+                    
+                    <div class="cd">1</div>
+                    <div class="cd">2</div>
+                    <div class="cd">3</div>
+                    <div class="cd">4</div>
+                    <div class="cd">5</div>
+                    <div class="cd">6</div>
+                    <div class="cd">7</div>
+                    <div class="cd">8</div>
+                    <div class="cd">9</div>
+                    <div class="cd">10</div>
+                    <div class="cd">11</div>
+                    <div class="cd">12</div>
+                    <div class="cd">13</div>
+                    <div class="cd">14</div>
+                    <div class="cd">15</div>
+                    <div class="cd">16</div>
+                    <div class="cd">17</div>
+                    <div class="cd">18</div>
+                    <div class="cd">19</div>
+                    <div class="cd">20</div>
+                    <div class="cd">21</div>
+                    <div class="cd">22</div>
+                    <div class="cd">23</div>
+                    <div class="cd">24</div>
+                    <div class="cd">25</div>
+                    <div class="cd">26</div>
+                    <div class="cd">27</div>
+                    <div class="cd">28</div>
+                    <div class="cd">29</div>
+                    <div class="cd">30</div>
+                    <div class="cd">31</div>
+                </div>
+            </div>
+
+
+
+            <div class="md"><p>February</p>
+                <div class="cd3">
+                    <div class="cd ">Sun</div>
+                    <div class="cd ">Mon</div>
+                    <div class="cd ">Tues</div>
+                    <div class="cd ">Wed</div>
+                    <div class="cd ">Thur</div>
+                    <div class="cd ">Fri</div>
+                    <div class="cd ">Sat</div>
+                </div>
+                <div class="cd4">
+                    <div class="cd"></div>
+                    <div class="cd"></div>
+                    <div class="cd"></div>
+                    <div class="cd">1</div>
+                    <div class="cd">2</div>
+                    <div class="cd">3</div>
+                    <div class="cd">4</div>
+                    <div class="cd">5</div>
+                    <div class="cd">6</div>
+                    <div class="cd">7</div>
+                    <div class="cd">8</div>
+                    <div class="cd">9</div>
+                    <div class="cd">10</div>
+                    <div class="cd">11</div>
+                    <div class="cd">12</div>
+                    <div class="cd">13</div>
+                    <div class="cd">14</div>
+                    <div class="cd">15</div>
+                    <div class="cd">16</div>
+                    <div class="cd">17</div>
+                    <div class="cd">18</div>
+                    <div class="cd">19</div>
+                    <div class="cd">20</div>
+                    <div class="cd">21</div>
+                    <div class="cd">22</div>
+                    <div class="cd">23</div>
+                    <div class="cd">24</div>
+                    <div class="cd">25</div>
+                    <div class="cd">26</div>
+                    <div class="cd">27</div>
+                    <div class="cd">28</div>
+                    <div class="cd">29</div>
+                    
+                </div>
+            </div>
+
+
+            <div class="md"><p>March</p>
+                <div class="cd3">
+                    <div class="cd ">Sun</div>
+                    <div class="cd ">Mon</div>
+                    <div class="cd ">Tues</div>
+                    <div class="cd ">Wed</div>
+                    <div class="cd ">Thur</div>
+                    <div class="cd ">Fri</div>
+                    <div class="cd ">Sat</div>
+                </div>
+                <div class="cd4">
+                    <div class="cd"></div>
+                    <div class="cd"></div>
+                    <div class="cd"></div>
+                    <div class="cd"></div>
+                    
+                    <div class="cd">1</div>
+                    <div class="cd">2</div>
+                    <div class="cd">3</div>
+                    <div class="cd">4</div>
+                    <div class="cd">5</div>
+                    <div class="cd">6</div>
+                    <div class="cd">7</div>
+                    <div class="cd">8</div>
+                    <div class="cd">9</div>
+                    <div class="cd">10</div>
+                    <div class="cd">11</div>
+                    <div class="cd">12</div>
+                    <div class="cd">13</div>
+                    <div class="cd">14</div>
+                    <div class="cd">15</div>
+                    <div class="cd">16</div>
+                    <div class="cd">17</div>
+                    <div class="cd">18</div>
+                    <div class="cd">19</div>
+                    <div class="cd">20</div>
+                    <div class="cd">21</div>
+                    <div class="cd">22</div>
+                    <div class="cd">23</div>
+                    <div class="cd">24</div>
+                    <div class="cd">25</div>
+                    <div class="cd">26</div>
+                    <div class="cd">27</div>
+                    <div class="cd">28</div>
+                    <div class="cd">29</div>
+                    <div class="cd">30</div>
+                    <div class="cd">31</div>
+                </div>
+            </div>
+
+            <div class="md"><p>April</p>
+                <div class="cd3">
+                    <div class="cd ">Sun</div>
+                    <div class="cd ">Mon</div>
+                    <div class="cd ">Tues</div>
+                    <div class="cd ">Wed</div>
+                    <div class="cd ">Thur</div>
+                    <div class="cd ">Fri</div>
+                    <div class="cd ">Sat</div>
+                </div>
+                <div class="cd4">
+                    
+                    <div class="cd">1</div>
+                    <div class="cd">2</div>
+                    <div class="cd">3</div>
+                    <div class="cd">4</div>
+                    <div class="cd">5</div>
+                    <div class="cd">6</div>
+                    <div class="cd">7</div>
+                    <div class="cd">8</div>
+                    <div class="cd">9</div>
+                    <div class="cd">10</div>
+                    <div class="cd">11</div>
+                    <div class="cd">12</div>
+                    <div class="cd">13</div>
+                    <div class="cd">14</div>
+                    <div class="cd">15</div>
+                    <div class="cd">16</div>
+                    <div class="cd">17</div>
+                    <div class="cd">18</div>
+                    <div class="cd">19</div>
+                    <div class="cd">20</div>
+                    <div class="cd">21</div>
+                    <div class="cd">22</div>
+                    <div class="cd">23</div>
+                    <div class="cd">24</div>
+                    <div class="cd">25</div>
+                    <div class="cd">26</div>
+                    <div class="cd">27</div>
+                    <div class="cd">28</div>
+                    <div class="cd">29</div>
+                    <div class="cd">30</div>
+                </div>
+            </div>
+
+            <div class="md"><p>May</p>
+                <div class="cd3">
+                    <div class="cd ">Sun</div>
+                    <div class="cd ">Mon</div>
+                    <div class="cd ">Tues</div>
+                    <div class="cd ">Wed</div>
+                    <div class="cd ">Thur</div>
+                    <div class="cd ">Fri</div>
+                    <div class="cd ">Sat</div>
+                </div>
+                <div class="cd4">
+                    <div class="cd"></div>
+                    <div class="cd"></div>
+                    <div class="cd">1</div>
+                    <div class="cd">2</div>
+                    <div class="cd">3</div>
+                    <div class="cd">4</div>
+                    <div class="cd">5</div>
+                    <div class="cd">6</div>
+                    <div class="cd">7</div>
+                    <div class="cd">8</div>
+                    <div class="cd">9</div>
+                    <div class="cd">10</div>
+                    <div class="cd">11</div>
+                    <div class="cd">12</div>
+                    <div class="cd">13</div>
+                    <div class="cd">14</div>
+                    <div class="cd">15</div>
+                    <div class="cd">16</div>
+                    <div class="cd">17</div>
+                    <div class="cd">18</div>
+                    <div class="cd">19</div>
+                    <div class="cd">20</div>
+                    <div class="cd">21</div>
+                    <div class="cd">22</div>
+                    <div class="cd">23</div>
+                    <div class="cd">24</div>
+                    <div class="cd">25</div>
+                    <div class="cd">26</div>
+                    <div class="cd">27</div>
+                    <div class="cd">28</div>
+                    <div class="cd">29</div>
+                    <div class="cd">30</div>
+                    <div class="cd">31</div>
+                </div>
+            </div>
+
+            <div class="md"><p>June</p>
+                <div class="cd3">
+                    <div class="cd ">Sun</div>
+                    <div class="cd ">Mon</div>
+                    <div class="cd ">Tues</div>
+                    <div class="cd ">Wed</div>
+                    <div class="cd ">Thur</div>
+                    <div class="cd ">Fri</div>
+                    <div class="cd ">Sat</div>
+                </div>
+                <div class="cd4">
+                    <div class="cd"></div>
+                    <div class="cd"></div>
+                    <div class="cd"></div>
+                    <div class="cd"></div>
+                    <div class="cd"></div>
+                    <div class="cd">1</div>
+                    <div class="cd">2</div>
+                    <div class="cd">3</div>
+                    <div class="cd">4</div>
+                    <div class="cd">5</div>
+                    <div class="cd">6</div>
+                    <div class="cd">7</div>
+                    <div class="cd">8</div>
+                    <div class="cd">9</div>
+                    <div class="cd">10</div>
+                    <div class="cd">11</div>
+                    <div class="cd">12</div>
+                    <div class="cd">13</div>
+                    <div class="cd">14</div>
+                    <div class="cd">15</div>
+                    <div class="cd">16</div>
+                    <div class="cd">17</div>
+                    <div class="cd">18</div>
+                    <div class="cd">19</div>
+                    <div class="cd">20</div>
+                    <div class="cd">21</div>
+                    <div class="cd">22</div>
+                    <div class="cd">23</div>
+                    <div class="cd">24</div>
+                    <div class="cd">25</div>
+                    <div class="cd">26</div>
+                    <div class="cd">27</div>
+                    <div class="cd">28</div>
+                    <div class="cd">29</div>
+                    <div class="cd">30</div>
+                </div>
+            </div>
+            <div class="md"><p>July</p>
+                <div class="cd3">
+                    <div class="cd ">Sun</div>
+                    <div class="cd ">Mon</div>
+                    <div class="cd ">Tues</div>
+                    <div class="cd ">Wed</div>
+                    <div class="cd ">Thur</div>
+                    <div class="cd ">Fri</div>
+                    <div class="cd ">Sat</div>
+                </div>
+                <div class="cd4">
+                    <div class="cd">1</div>
+                    <div class="cd">2</div>
+                    <div class="cd">3</div>
+                    <div class="cd">4</div>
+                    <div class="cd">5</div>
+                    <div class="cd">6</div>
+                    <div class="cd">7</div>
+                    <div class="cd">8</div>
+                    <div class="cd">9</div>
+                    <div class="cd">10</div>
+                    <div class="cd">11</div>
+                    <div class="cd">12</div>
+                    <div class="cd">13</div>
+                    <div class="cd">14</div>
+                    <div class="cd">15</div>
+                    <div class="cd">16</div>
+                    <div class="cd">17</div>
+                    <div class="cd">18</div>
+                    <div class="cd">19</div>
+                    <div class="cd">20</div>
+                    <div class="cd">21</div>
+                    <div class="cd">22</div>
+                    <div class="cd">23</div>
+                    <div class="cd">24</div>
+                    <div class="cd">25</div>
+                    <div class="cd">26</div>
+                    <div class="cd">27</div>
+                    <div class="cd">28</div>
+                    <div class="cd">29</div>
+                    <div class="cd">30</div>
+                    <div class="cd">31</div>
+                </div>
+            </div>
+
+            <div class="md"><p>August</p>
+                <div class="cd3">
+                    <div class="cd ">Sun</div>
+                    <div class="cd ">Mon</div>
+                    <div class="cd ">Tues</div>
+                    <div class="cd ">Wed</div>
+                    <div class="cd ">Thur</div>
+                    <div class="cd ">Fri</div>
+                    <div class="cd ">Sat</div>
+                </div>
+                <div class="cd4">
+                    <div class="cd"></div>
+                    <div class="cd"></div>
+                    <div class="cd"></div>
+                    <div class="cd">1</div>
+                    <div class="cd">2</div>
+                    <div class="cd">3</div>
+                    <div class="cd">4</div>
+                    <div class="cd">5</div>
+                    <div class="cd">6</div>
+                    <div class="cd">7</div>
+                    <div class="cd">8</div>
+                    <div class="cd">9</div>
+                    <div class="cd">10</div>
+                    <div class="cd">11</div>
+                    <div class="cd">12</div>
+                    <div class="cd">13</div>
+                    <div class="cd">14</div>
+                    <div class="cd">15</div>
+                    <div class="cd">16</div>
+                    <div class="cd">17</div>
+                    <div class="cd">18</div>
+                    <div class="cd">19</div>
+                    <div class="cd">20</div>
+                    <div class="cd">21</div>
+                    <div class="cd">22</div>
+                    <div class="cd">23</div>
+                    <div class="cd">24</div>
+                    <div class="cd">25</div>
+                    <div class="cd">26</div>
+                    <div class="cd">27</div>
+                    <div class="cd">28</div>
+                    <div class="cd">29</div>
+                    <div class="cd">30</div>
+                    <div class="cd">31</div>
+                    
+                </div>
+            </div>
+
+            <div class="md"><p>September</p>
+                <div class="cd3">
+                    <div class="cd ">Sun</div>
+                    <div class="cd ">Mon</div>
+                    <div class="cd ">Tues</div>
+                    <div class="cd ">Wed</div>
+                    <div class="cd ">Thur</div>
+                    <div class="cd ">Fri</div>
+                    <div class="cd ">Sat</div>
+                </div>
+                <div class="cd4">
+                    <div class="cd">30</div>
+                    <div class="cd"></div>
+                    <div class="cd"></div>
+                    <div class="cd"></div>
+                    <div class="cd"></div>
+                    <div class="cd"></div>
+                    <div class="cd">1</div>
+                    <div class="cd">2</div>
+                    <div class="cd">3</div>
+                    <div class="cd">4</div>
+                    <div class="cd">5</div>
+                    <div class="cd">6</div>
+                    <div class="cd">7</div>
+                    <div class="cd">8</div>
+                    <div class="cd">9</div>
+                    <div class="cd">10</div>
+                    <div class="cd">11</div>
+                    <div class="cd">12</div>
+                    <div class="cd">13</div>
+                    <div class="cd">14</div>
+                    <div class="cd">15</div>
+                    <div class="cd">16</div>
+                    <div class="cd">17</div>
+                    <div class="cd">18</div>
+                    <div class="cd">19</div>
+                    <div class="cd">20</div>
+                    <div class="cd">21</div>
+                    <div class="cd">22</div>
+                    <div class="cd">23</div>
+                    <div class="cd">24</div>
+                    <div class="cd">25</div>
+                    <div class="cd">26</div>
+                    <div class="cd">27</div>
+                    <div class="cd">28</div>
+                    <div class="cd">29</div>
+                    
+                </div>
+            </div>
+
+            <div class="md"><p>October</p>
+                <div class="cd3">
+                    <div class="cd ">Sun</div>
+                    <div class="cd ">Mon</div>
+                    <div class="cd ">Tues</div>
+                    <div class="cd ">Wed</div>
+                    <div class="cd ">Thur</div>
+                    <div class="cd ">Fri</div>
+                    <div class="cd ">Sat</div>
+                </div>
+                <div class="cd4">
+                    <div class="cd"></div>
+                    <div class="cd">1</div>
+                    <div class="cd">2</div>
+                    <div class="cd">3</div>
+                    <div class="cd">4</div>
+                    <div class="cd">5</div>
+                    <div class="cd">6</div>
+                    <div class="cd">7</div>
+                    <div class="cd">8</div>
+                    <div class="cd">9</div>
+                    <div class="cd">10</div>
+                    <div class="cd">11</div>
+                    <div class="cd">12</div>
+                    <div class="cd">13</div>
+                    <div class="cd">14</div>
+                    <div class="cd">15</div>
+                    <div class="cd">16</div>
+                    <div class="cd">17</div>
+                    <div class="cd">18</div>
+                    <div class="cd">19</div>
+                    <div class="cd">20</div>
+                    <div class="cd">21</div>
+                    <div class="cd">22</div>
+                    <div class="cd">23</div>
+                    <div class="cd">24</div>
+                    <div class="cd">25</div>
+                    <div class="cd">26</div>
+                    <div class="cd">27</div>
+                    <div class="cd">28</div>
+                    <div class="cd">29</div>
+                    <div class="cd">30</div>
+                    <div class="cd">31</div>
+                </div>
+            </div>
+
+            <div class="md"><p>November</p>
+                <div class="cd3">
+                    <div class="cd ">Sun</div>
+                    <div class="cd ">Mon</div>
+                    <div class="cd ">Tues</div>
+                    <div class="cd ">Wed</div>
+                    <div class="cd ">Thur</div>
+                    <div class="cd ">Fri</div>
+                    <div class="cd ">Sat</div>
+                </div>
+                <div class="cd4">
+                    <div class="cd"></div>
+                    <div class="cd"></div>
+                    <div class="cd"></div>
+                    <div class="cd"></div>
+                    <div class="cd">1</div>
+                    <div class="cd">2</div>
+                    <div class="cd">3</div>
+                    <div class="cd">4</div>
+                    <div class="cd">5</div>
+                    <div class="cd">6</div>
+                    <div class="cd">7</div>
+                    <div class="cd">8</div>
+                    <div class="cd">9</div>
+                    <div class="cd">10</div>
+                    <div class="cd">11</div>
+                    <div class="cd">12</div>
+                    <div class="cd">13</div>
+                    <div class="cd">14</div>
+                    <div class="cd">15</div>
+                    <div class="cd">16</div>
+                    <div class="cd">17</div>
+                    <div class="cd">18</div>
+                    <div class="cd">19</div>
+                    <div class="cd">20</div>
+                    <div class="cd">21</div>
+                    <div class="cd">22</div>
+                    <div class="cd">23</div>
+                    <div class="cd">24</div>
+                    <div class="cd">25</div>
+                    <div class="cd">26</div>
+                    <div class="cd">27</div>
+                    <div class="cd">28</div>
+                    <div class="cd">29</div>
+                    <div class="cd">30</div>
+                </div>
+            </div>
+
+
+            <div class="md"><p>December</p>
+                <div class="cd3">
+                    <div class="cd ">Sun</div>
+                    <div class="cd ">Mon</div>
+                    <div class="cd ">Tues</div>
+                    <div class="cd ">Wed</div>
+                    <div class="cd ">Thur</div>
+                    <div class="cd ">Fri</div>
+                    <div class="cd ">Sat</div>
+                </div>
+                <div class="cd4">
+                    
+                    <div class="cd">30</div>
+                    <div class="cd">31</div>
+                    <div class="cd"></div>
+                    <div class="cd"></div>
+                    <div class="cd"></div>
+                    <div class="cd"></div>
+                    <div class="cd">1</div>
+                    <div class="cd">2</div>
+                    <div class="cd">3</div>
+                    <div class="cd">4</div>
+                    <div class="cd">5</div>
+                    <div class="cd">6</div>
+                    <div class="cd">7</div>
+                    <div class="cd">8</div>
+                    <div class="cd">9</div>
+                    <div class="cd">10</div>
+                    <div class="cd">11</div>
+                    <div class="cd">12</div>
+                    <div class="cd">13</div>
+                    <div class="cd">14</div>
+                    <div class="cd">15</div>
+                    <div class="cd">16</div>
+                    <div class="cd">17</div>
+                    <div class="cd">18</div>
+                    <div class="cd">19</div>
+                    <div class="cd">20</div>
+                    <div class="cd">21</div>
+                    <div class="cd">22</div>
+                    <div class="cd">23</div>
+                    <div class="cd"><div class="cd1">24</div></div>
+                    <div class="cd">25</div>
+                    <div class="cd">26</div>
+                    <div class="cd">27</div>
+                    <div class="cd">28</div>
+                    <div class="cd">29</div>
+                    
+                </div>
+            </div>
+        </div>
+        
+
+
+
+    </div>
+    
+
+    
+        
+</body>
+</html>
